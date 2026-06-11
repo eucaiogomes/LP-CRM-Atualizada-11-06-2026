@@ -1,0 +1,27 @@
+127.0.0.1 - - [11/Jun/2026 15:51:41] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/dossie-icon-case.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/dossie-icon-document.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/dossie-icon-clock.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/dossie-icon-calendar.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/dossie-file-pdf.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/dossie-file-image.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/whatsapp-bg.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:00] "GET /images/crm-whatsapp-avatars.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/dossie-icon-case.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/dossie-icon-document.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/dossie-icon-clock.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/dossie-icon-calendar.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/dossie-file-pdf.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/dossie-file-image.svg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/crm-whatsapp-avatars.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /images/whatsapp-bg.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jun/2026 15:52:01] code 404, message File not found
+127.0.0.1 - - [11/Jun/2026 15:52:01] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jun/2026 15:52:02] code 404, message File not found
+127.0.0.1 - - [11/Jun/2026 15:52:02] "GET /favicon.ico HTTP/1.1" 404 -
