@@ -1199,6 +1199,40 @@
   }
 })();
 
+(function(){
+  if (!window.matchMedia("(hover: hover)").matches) return;
+
+  const cardSelector = [
+    ".met-step",
+    ".trg-card",
+    ".exa-card",
+    ".cmp-card",
+    ".pain-turn",
+    ".form-card",
+    ".shift-card",
+    ".veq-card",
+    ".rc-card",
+    ".stack-card",
+    ".gar-banner",
+    ".vs-table",
+    ".fit-card",
+    ".faq-item",
+    ".funil-bento-cell"
+  ].join(",");
+
+  document.querySelectorAll(cardSelector).forEach(card => {
+    if (card.querySelector(":scope > .spot-glow")) return;
+    const glow = document.createElement("span");
+    glow.className = "spot-glow";
+    card.appendChild(glow);
+    card.addEventListener("mousemove", event => {
+      const rect = card.getBoundingClientRect();
+      card.style.setProperty("--mx", `${event.clientX - rect.left}px`);
+      card.style.setProperty("--my", `${event.clientY - rect.top}px`);
+    });
+  });
+})();
+
 const observer = new IntersectionObserver(
   entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } }),
   { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
